@@ -28,6 +28,10 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:chesterlaykin/js-wp-helpers.git"
     }
   ],
   "require": {
@@ -38,7 +42,8 @@
     "roots/bedrock-autoloader": "^1.0",
     "roots/wordpress": "5.7.2",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "chesterlaykin/js-wp-helpers" : "1.0.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.0",

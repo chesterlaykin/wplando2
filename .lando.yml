@@ -8,7 +8,9 @@ config:
   xdebug: true
   env_file:
     - .env
-
+proxy:                
+  theme:              # Optional: add this if you include the Sage specific config down below
+    - localhost:3000
 # Add the following if you plan to use Sage as a starter theme
 services:
   theme:
