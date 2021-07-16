@@ -130,3 +130,21 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+/**
+ * Register post type 'film'
+ */
+add_action( 'init', function (){
+    
+    //see plugin: js-wp-helpers 
+    if(function_exists('wph_post_type_args')){
+
+        $result = wph_post_type_args('filmer','film');
+
+        register_post_type( 'film', $result['args'] );
+        
+    } 
+     
+});
+
+
