@@ -18,7 +18,7 @@ lando composer install
 
 ## Install composer and npm packages
 
-go to the folder: `web/app/wplando2` and run:
+go to the folder: `web/app/themes/wplando2` and run:
 
 ```
 lando yarn
