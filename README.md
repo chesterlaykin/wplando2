@@ -5,6 +5,7 @@
 - [Sage theme "wplando2"](#sage-theme-wplando2)
   - [Theme folder](#theme-folder)
   - [Install composer and npm packages](#install-composer-and-npm-packages)
+  - [Activate plugin](#activate-plugin)
   - [Start development server](#start-development-server)
 
 # Install the project with Lando for local development
@@ -44,6 +45,10 @@ lando yarn build
 ```
 lando composer install
 ```
+
+## Activate plugin
+
+Go to http://wplando2.lndo.site/wp-admin and activate plugin **"JS WP Helpers"**
 
 ## Start development server
 
